@@ -283,7 +283,7 @@ import tensorflow as tf
 import tensorflow_text as tf_text
 import pathlib
 
-path_to_file = pathlib.Path(r"data\NLP with Attention models  Translation Machine\por.txt")
+path_to_file = pathlib.Path("/content/NLP_Chapitre/data/NLP with Attention models  Translation Machine/por.txt")
 
 np.random.seed(1234)
 tf.random.set_seed(1234)
